@@ -1,0 +1,9 @@
+if __name__ == '__main__':
+    n = int(input())
+    arr = list(map(int, input().split()))
+    arr=list(set(arr))
+    maxi=max(arr)
+    i=arr.index(maxi)
+    arr.pop(i)
+    maxi1=max(arr)
+    print(maxi1)
