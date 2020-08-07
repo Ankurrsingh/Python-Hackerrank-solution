@@ -1,0 +1,8 @@
+n=int(input())
+p=[]
+for i in range (n):
+    s=input()
+    p.append(s)
+
+s=list(set(p))
+print(len(s))
