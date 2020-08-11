@@ -1,0 +1,6 @@
+from collections import Counter, OrderedDict
+n=int(input())
+st=[input() for _ in range (n) ]
+col_count = Counter(st)
+print(len(col_count))
+print(*col_count.values())
